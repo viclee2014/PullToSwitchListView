@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dddddd" >
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/switchlistview_item_background"/>
+    <ImageView
+        android:id="@+id/grid_divider"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@id/item_image"
+        android:background="#eeeeee" />
+</RelativeLayout>

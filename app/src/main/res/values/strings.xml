@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PullToSwitchListView</string>
+
+    <string name="switchlistview_header_hint_normal">下拉刷新</string>
+    <string name="switchlistview_header_hint_ready">松开刷新数据</string>
+    <string name="switchlistview_header_hint_loading">正在加载...</string>
+    <string name="switchlistview_header_last_time">上次更新时间：</string>
+    <string name="switchlistview_footer_hint_ready">松开载入更多</string>
+
+    <string name="switchlistview_footer_text">下一页内容</string>
+    <string name="switchlistview_header_text">上一页内容</string>
+    <string name="switchlistview_footer_pull_to_next_page">上拉进入下一页</string>
+    <string name="switchlistview_footer_release_to_next_page">松手进入下一页</string>
+    <string name="switchlistview_header_pull_to_pre_page">下拉进入上一页</string>
+    <string name="switchlistview_header_release_to_pre_page">松手进入上一页</string>
+    <string name="switchlistview_header_no_pre_page">已经是最新的了</string>
+</resources>

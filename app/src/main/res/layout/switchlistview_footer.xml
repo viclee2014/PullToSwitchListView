@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/switchlistview_footer_content"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/switchlistview_footer_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/switchlistview_footer_shadow" />
+
+        <RelativeLayout
+            android:id="@+id/switchlistview_footer_loading_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true">
+            <TextView
+                android:id="@+id/switchlistview_footer_hint_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:text="@string/switchlistview_footer_pull_to_next_page" />
+
+            <ImageView
+                android:id="@+id/switchlistview_footer_hint_more_btn"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignLeft="@id/switchlistview_footer_hint_textview"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="-25dp"
+                android:background="@drawable/more_btn_up" />
+
+            <ProgressBar
+                android:id="@+id/switchlistview_footer_progressbar"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignLeft="@id/switchlistview_footer_hint_textview"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="-25dp"
+                android:visibility="invisible"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/switchlistview_footer_hint_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/switchlistview_footer_loading_status"
+            android:layout_marginTop="7dp"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:text="@string/switchlistview_footer_text" />
+    </RelativeLayout>
+
+</LinearLayout>
